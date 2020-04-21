@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".gui.MainActivity">
+	
+	
+	<RadioGroup
+		android:id="@+id/rdbSex"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		
+		<RadioButton
+			android:id="@+id/rdbMale"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:checked="true"
+			android:text="@string/strMaleText" />
+		
+		<RadioButton
+			android:id="@+id/rdbFemale"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/strFemaleText" />
+		
+		<RadioButton
+			android:id="@+id/rdbOther"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/strOtherText" />
+	</RadioGroup>
+	
+	<EditText
+		android:id="@+id/txtFirstName"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:hint="@string/strFirstNameHint"
+		android:inputType="textPersonName" />
+	
+	<EditText
+		android:id="@+id/txtLastName"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:hint="@string/strLastNameHint"
+		android:inputType="textPersonName" />
+	
+	<EditText
+		android:id="@+id/txtBday"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:hint="@string/strDatePattern"
+		android:inputType="date"
+		android:maxLength="@integer/iMaxLengthBday" />
+	
+	<EditText
+		android:id="@+id/txtHeight"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:hint="@string/strHeightHint"
+		android:inputType="numberDecimal" />
+	
+	<EditText
+		android:id="@+id/txtWeight"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:hint="@string/strWeightHint"
+		android:inputType="numberDecimal" />
+	
+	<EditText
+		android:id="@+id/txtBmi"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:hint="@string/strBmiHint"
+		android:inputType="numberDecimal" />
+	
+	<LinearLayout
+		android:id="@+id/linLayoutControlButtons"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		
+		<Button
+			android:id="@+id/btnCalcBmi"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/strSaveAndCalcBmiText"
+			android:textAllCaps="false" />
+		
+		<Button
+			android:id="@+id/btnDeletePerson"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/strDeleteTitle"
+			android:textAllCaps="false" />
+	</LinearLayout>
+	
+	<ListView
+		android:id="@+id/lvPersons"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+
+
+</LinearLayout>

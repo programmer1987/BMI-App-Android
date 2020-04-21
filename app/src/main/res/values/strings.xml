@@ -1,0 +1,31 @@
+<resources>
+	<string name="app_name" translatable="false">RkBmi</string>
+	
+	<string name="strMaleText">male</string>
+	<string name="strFemaleText">female</string>
+	<string name="strOtherText">other</string>
+	<string name="strFirstNameHint">First name</string>
+	<string name="strLastNameHint">Last name</string>
+
+	<string name="strHeightHint">Height in m</string>
+	<string name="strWeightHint">Weight in kg</string>
+	
+	<string name="strBmiHint" translatable="false">BMI</string>
+	<string name="strSaveAndCalcBmiText">Save and Calculate BMI</string>
+	
+	<string name="strPersonInfoText">Person info</string>
+	<string name="strDeleteTitle">Delete</string>
+	<string name="strDatePattern" translatable="false">dd.MM.yyyy</string>
+	<string name="strTimePattern" translatable="false">HH:mm:ss</string>
+	<string name="strDefaultFileNameWithFileExtension" translatable="false">persons.csv</string>
+	<string name="strCharSetUtfEight" translatable="false">UTF-8</string>
+	
+	<string name="strUserMsgDeletePerson">Do you want to delete this person?</string>
+	<string name="strUserMsgBmiCalcSuccess">Calculated BMI succesfully</string>
+	<string name="strUserMsgFillEverythingOut">Please fill out all the text fields</string>
+	<string name="strUserMsgHeightAndWeightGreaterThenZero">Height and weight values must be greater then 0</string>
+	<string name="strUserMsgWrongInput">Pelase fill everything out.\nNotice that the BMI values height and weight must be greater the 0.1</string>
+	<string name="strUserMsgNoPersonSelected">No Person selected.</string>
+
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">RkBmi</string>
+	<string name="strMaleText">Hombre</string>
+	<string name="strFemaleText">Mujer</string>
+	<string name="strOtherText">Otro</string>
+	<string name="strFirstNameHint">Nombre</string>
+	<string name="strLastNameHint">Apellido</string>
+	<string name="strHeightHint">Altura</string>
+	<string name="strWeightHint">Peso</string>
+	<string name="strSaveAndCalcBmiText">Guarda y calcula</string>
+	<string name="strUserMsgDeletePerson">Desa borrar entrada?</string>
+	<string name="strPersonInfoText">Persona info</string>
+	<string name="strDeleteTitle">Borrar</string>
+	<string name="strUserMsgBmiCalcSuccess">Calulado con exito</string>
+	<string name="strUserMsgFillEverythingOut">Rellene los campos</string>
+	<string name="strUserMsgHeightAndWeightGreaterThenZero">Peso y altura deben ser mayor a 0</string>
+	<string name="strUserMsgWrongInput">Rellene los campos.\nPeso y altura deben ser mayor a 0.1</string>
+</resources>
